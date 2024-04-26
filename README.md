@@ -22,4 +22,4 @@ Manutenção de Contatos (gravando em banco de dados (DESKTOP) ou no STORAGE (WE
 ## Layout (DESKTOP)
 
     ![HOME](./assets/images/153040.png)
-    ![HOME](./assets/images/155142.png)
+    ![DATA](./assets/images/155142.png)
