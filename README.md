@@ -18,4 +18,4 @@ samples, guidance on mobile development, and a full API reference.
   Manutenção de Contatos (gravando em banco de dados (DESKTOP) ou no STORAGE (WEB) 
 
 # Layout (DESKTOP)
-  ![HOME] ("https://github.com/silvioagnello/contatos/assets/images/Captura de tela 2024-04-26 153040.png")
+  ![HOME] https://github.com/silvioagnello/contatos/blob/master/assets/images/153040.png
