@@ -1,4 +1,4 @@
-# contacts
+# CONTATOS
 
 A new Flutter project.
 
@@ -14,3 +14,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Sobre o Projeto
+
+Manutenção de Contatos (gravando em banco de dados (DESKTOP) ou no STORAGE (WEB)
+
+## Layout (DESKTOP)
+
+    ![HOME](./assets/images/153040.png)
+    ![HOME](./assets/images/155142.png)
