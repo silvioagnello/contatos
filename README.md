@@ -17,4 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 # Sobre o Projeto
   Manutenção de Contatos (gravando em banco de dados (DESKTOP) ou no STORAGE (WEB) 
 
-  
+# Layout (DESKTOP)
+  ![HOME]
