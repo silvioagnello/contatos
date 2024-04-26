@@ -1,4 +1,4 @@
-# contacts
+# CONTATOS
 
 A new Flutter project.
 
