@@ -21,5 +21,3 @@ Manutenção de Contatos (gravando em banco de dados (DESKTOP) ou no STORAGE (WE
 
 ## Layout (DESKTOP)
 ![HOME](/assets/images/153040.png)
-![153040](https://github.com/silvioagnello/contatos/assets/35569943/a21f2034-0be4-427d-84c0-c3685b05ce95)
-![155142](https://github.com/silvioagnello/contatos/assets/35569943/ea26e243-479c-40f2-885c-3c3dbc74c013)
