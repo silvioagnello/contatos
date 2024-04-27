@@ -21,21 +21,23 @@ class _HomePageState extends State<HomePage> {
   delete(cont, ContactModel c) async {
     try {
       if (await _contatoDAO.deletar(c)) {
-        var msg = 'Eliminado com sucesso';
+        String msg = 'Eliminado com sucesso';
         messages.messageSnack(cont, msg);
         // Navigator.pop(cont);
       }
     } on Exception catch (e) {
-      messages.messageSnack(cont, e);
+      messages.messageSnack(cont, e.toString());
     }
     getAllContacts(cont);
   }
 
   getAllContacts(c) async {
-    contacts.clear();
     //SELECIONARTODOSCONTATOS - DAO
     try {
+      // setState(() {
+      // });
       List<ContactModel> retorno = await _contatoDAO.selecionarTodos();
+      contacts.clear();
       contacts.addAll(retorno);
     } on Exception catch (e) {
       messages.messageSnack(c, e);
@@ -124,6 +126,7 @@ class _HomePageState extends State<HomePage> {
                     IconButton(
                         icon: const Icon(Icons.delete, color: Colors.cyan),
                         onPressed: () {
+                          print('delete');
                           delete(context, contato)
                               .then((value) => getAllContacts(context));
                         }),
